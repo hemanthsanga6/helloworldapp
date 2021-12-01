@@ -1,0 +1,10 @@
+Its a hello world django app which returns a JSON object as its response
+
+go to the project directory 
+run
+python manage.py runserver
+It should open the link http://127.0.0.1:8000/ which can even be manually opened once the server starts running
+
+go to home link or http://127.0.0.1:8000/home
+
+the JSON object response saying {"Message": "Hello World!"} is displayed
